@@ -1,0 +1,6 @@
+services:
+  lint:
+    image: buildkite/plugin-linter
+    command: ['--id', 'rabinpoudyal/terraform-cloud']
+    volumes:
+      - ".:/plugin:ro"
