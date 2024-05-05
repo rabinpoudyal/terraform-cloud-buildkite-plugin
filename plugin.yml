@@ -1,0 +1,13 @@
+name: TerraformCloudBuildkitePlugin
+description: Helps to run the terraform cloud's API driven workflow.
+author: https://github.com/rabinpoudyal
+requirements:
+  - jq
+  - curl
+  - tar
+configuration:
+  properties:
+    pattern:
+      type: string
+  additionalProperties: false
+

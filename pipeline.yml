@@ -1,0 +1,4 @@
+- label: "🐚 Lint"
+  plugins:
+    plugin-linter#v3.0.0:
+      id: a-gihub-user/file-counter
